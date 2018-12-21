@@ -1,0 +1,15 @@
+#objects
+
+class vehicle:
+	name = ""
+        price = ""
+	vehicle_type = "car"
+        color = ""
+
+	def description():
+		print("This is a %s %s which would be %s in color and it would cost you $%s" % (name , vehicle_type , color , price ) )
+
+
+
+#object creation time 
+

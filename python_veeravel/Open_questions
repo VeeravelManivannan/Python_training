@@ -1,0 +1,3 @@
+1. What is the use of serialization ? , what is the purpose of serializing ?
+	Answer1: When an object in memory is stored and needs to be converted as a string , when they are to be sent over internet as a set of strings (eg:json) , when they are to be dumped in a file and 			 read from file 
+	Answer2: When the state of object has to be saved ,  deserialised into object and loaded into memory again 

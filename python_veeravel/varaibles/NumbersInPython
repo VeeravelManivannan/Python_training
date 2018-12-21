@@ -1,0 +1,7 @@
+SomeInteger = 10 
+SomeFloatingpoint = 11.0
+SomeConvertedFloatingPointNo = float(21)
+print(SomeInteger)
+print(SomeFloatingpoint)
+print(SomeConvertedFloatingPointNo)
+
