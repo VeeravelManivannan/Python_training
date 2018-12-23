@@ -1,0 +1,46 @@
+C:\Program Files\Python37
+
+Best asyncio(coroutines) tutorial 
+
+https://www.youtube.com/watch?v=tSLDcRkgTsY
+
+Profiling and optimizing pythoncode :
+https://www.youtube.com/watch?v=8qEnExGLZfY
+
+async io , tutorial : (probbaly easy to understand , to be confirmed after going through the complete arcticle)
+https://hackernoon.com/asyncio-for-the-working-python-developer-5c468e6e2e8e
+
+
+Some notes from Pythonasync io :
+
+co-routine :
+	-Functions , which can pause execution flow in the middel and yield to caller , but still when it comes back can have its state (because the state is saved when there is a yield)
+	-Eventloop is the "scheduler" , usually which the co-routine yields to . 
+	-When a co-routine is called , it doesn't execute it only returns a co-routine object . 
+
+Eventloop:
+	-Waits for somethings to happens and takes an action , as soon as some event happens 
+	-When an event A occurs , React with function B
+	
+Task :
+		-Wrapper for "coroutines"
+        -"subcalss of future"(A future is a "result of task which has not yet been completed" - when completed it goes to done status ) 		
+		
+		
+		
+		
+		
+		
+###############################
+If time permits
+###############################
+If time permits look into aiohttp module
+https://aiohttp.readthedocs.io/en/stable/		
+	
+Django VS AIO http:
+
+https://webdevelop.pro/django-vs-aiohttp-perfomance-test.html	
+	
+
+	
+	
